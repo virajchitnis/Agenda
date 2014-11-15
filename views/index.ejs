@@ -52,11 +52,7 @@
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Viraj Chitnis <span class="caret"></span></a>
 						<ul class="dropdown-menu" role="menu">
-							<li><a href="#">Action</a></li>
-							<li><a href="#">Another action</a></li>
-							<li><a href="#">Something else here</a></li>
-							<li class="divider"></li>
-							<li><a href="#">Separated link</a></li>
+							<li><a href="#"><span class="glyphicon glyphicon-log-out" aria-hidden="true"></span> Logout</a></li>
 						</ul>
 					</li>
 				</ul>
@@ -64,8 +60,34 @@
 		</div>
 	</nav>
 	
+	<div class="container">
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<button type="button" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></button>
+				<button type="button" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-trash" aria-hidden="true"></span></button>
+				<button type="button" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span></button>
+			</div>
+			<div class="panel-body">
+				<table class="table table-striped table-hover">
+					<tr>
+						<th></th>
+						<th>Name</th>
+						<th>Due date</th>
+					</tr>
+					<tr>
+						<td><input type="checkbox"></td>
+						<td>MovieDB</td>
+						<td></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+	
 	<div class="footer">
+		<br>
 		<p>Copyright &copy; 2014 Viraj Chitnis. All Rights Reserved</p>
+		<br>
 	</div>
 	
 	<!-- jQuery via CDN -->
